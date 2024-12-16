@@ -33,11 +33,11 @@ function App() {
         {/* Footer */}
         <footer className="bg-gray-800 text-white p-4 mt-auto">
           <div className="container mx-auto text-center">
-            <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+            <p>&copy; 2024 Sherry's Portfolio. All Rights Reserved.</p>
             <div className="mt-2">
-              <a href="#" className="mx-2 hover:text-gray-300">LinkedIn</a>
-              <a href="#" className="mx-2 hover:text-gray-300">GitHub</a>
-              <a href="#" className="mx-2 hover:text-gray-300">Email</a>
+              <a href="https://linkedin.com/in/sherrylev" className="mx-2 hover:text-gray-300">LinkedIn</a>
+              <a href="https://github.com/SherryLev" className="mx-2 hover:text-gray-300">GitHub</a>
+              <a href="mailto:slev@uwaterloo.ca" className="mx-2 hover:text-gray-300">Email</a>
             </div>
           </div>
         </footer>
