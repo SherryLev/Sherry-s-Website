@@ -30,14 +30,30 @@ function App() {
           <Route path="/resume" element={<Resume />} />
         </Routes>
 
+              
         {/* Footer */}
         <footer className="bg-gray-800 text-white p-4 mt-auto">
           <div className="container mx-auto text-center">
             <p>&copy; 2024 Sherry's Portfolio. All Rights Reserved.</p>
-            <div className="mt-2">
-              <a href="https://linkedin.com/in/sherrylev" className="mx-2 hover:text-gray-300">LinkedIn</a>
-              <a href="https://github.com/SherryLev" className="mx-2 hover:text-gray-300">GitHub</a>
-              <a href="mailto:slev@uwaterloo.ca" className="mx-2 hover:text-gray-300">Email</a>
+            <div className="mt-2 flex justify-center space-x-6">
+              <a 
+                href="https://linkedin.com/in/sherrylev" 
+                className="flex items-center hover:text-gray-300">
+                <img src="/linkedin.png" alt="LinkedIn" className="w-5 h-5 mr-2" />
+                LinkedIn
+              </a>
+              <a 
+                href="https://github.com/SherryLev" 
+                className="flex items-center hover:text-gray-300">
+                <img src="/githublogo.png" alt="GitHub" className="w-5 h-5 mr-2" />
+                GitHub
+              </a>
+              <a 
+                href="mailto:slev@uwaterloo.ca" 
+                className="flex items-center hover:text-gray-300">
+                <img src="/email_three.jpg" alt="Email" className="w-5 h-5 mr-2" />
+                Email
+              </a>
             </div>
           </div>
         </footer>
