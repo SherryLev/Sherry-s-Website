@@ -5,45 +5,45 @@ const Projects = () => {
   const projectsList = [
     {
       id: 1,
-      title: 'RooMate',
+      title: 'RoomMate',
       description: 'Streamlines household management by combining user authentication, expense splitting, chore management, and a rewarding points system.',
       technologies: ['Kotlin', 'FireBase'],
-      link: '#',
+      link: 'https://github.com/SherryLev/RoomMate',
     },
     {
       id: 2,
       title: 'ConnectFour',
       description: 'Classic two-player strategy game where the objective is to connect four of your discs in a row—vertically, horizontally, or diagonally—before your opponent does. ',
       technologies: ['Kotlin'],
-      link: '#',
+      link: 'https://github.com/SherryLev/ConnectFour',
     },
     {
       id: 3,
       title: 'Notes',
       description: 'Simple application designed to help users create, organize, and manage their personal notes.',
       technologies: ['Kotlin'],
-      link: '#',
+      link: 'https://github.com/SherryLev/Notes',
     },
     {
       id: 4,
       title: 'To Do App',
       description: 'Organize tasks efficiently with a dynamic to-do app.',
       technologies: ['Kotlin'],
-      link: '#',
+      link: 'https://github.com/SherryLev/To-Do-App',
     },
     {
       id: 5,
       title: 'The North American Map',
       description: 'Interactive map with cascading drop-down menus for real-time navigation.',
       technologies: ['JavaScript', 'Google Maps API', 'C#'],
-      link: '#',
+      link: 'https://github.com/SherryLev/The-North-American-App',
     },
     {
       id: 6,
       title: 'Complier',
       description: 'This compiler implements scanning, parsing, context sensitive analysis, and code generation',
       technologies: ['C++'],
-      link: '#',
+      link: 'https://github.com/SherryLev/Compiler',
     },
   ];
 
@@ -56,7 +56,7 @@ const Projects = () => {
         <div className="mb-12">
           <div className="relative bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 rounded-lg shadow-lg p-6 md:p-12 flex flex-col md:flex-row items-center">
             <div className="md:w-2/3">
-              <h2 className="text-3xl font-bold mb-4">Featured Project: RooMate</h2>
+              <h2 className="text-3xl font-bold mb-4">Featured Project: RoomMate</h2>
               <p className="text-gray-700 mb-4">
               Application streamlines household management by combining user authentication, expense splitting, chore management, and a rewarding points system.
               </p>
@@ -71,7 +71,7 @@ const Projects = () => {
                 ))}
               </div>
               <a
-                href="#"
+                href="https://github.com/SherryLev/RoomMate"
                 className="inline-block bg-purple-500 text-white px-6 py-2 rounded-lg shadow-lg hover:bg-purple-600 transition duration-300"
               >
                 View Project
