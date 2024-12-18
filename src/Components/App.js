@@ -4,6 +4,9 @@ import Home from './Home';
 import About from './About';
 import Projects from './Projects';
 import Resume from './Resume';
+import { 
+  Mail, 
+} from 'lucide-react';
 
 function App() {
   return (
@@ -48,12 +51,13 @@ function App() {
                 <img src="/githublogo.png" alt="GitHub" className="w-5 h-5 mr-2" />
                 GitHub
               </a>
-              <a 
-                href="mailto:slev@uwaterloo.ca" 
-                className="flex items-center hover:text-gray-300">
-                <img src="/email_three.jpg" alt="Email" className="w-5 h-5 mr-2" />
-                Email
-              </a>
+              <a                  
+                href="mailto:slev@uwaterloo.com"                  
+                className="flex items-center hover:text-gray-300"
+              >                 
+                <Mail className="w-5 h-5 mr-2" />                 
+                Email               
+              </a> 
             </div>
           </div>
         </footer>
