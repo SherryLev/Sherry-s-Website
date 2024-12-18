@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sherry-s-Website/static/css/main.13d1daf8.css",
+    "main.js": "/Sherry-s-Website/static/js/main.e0db0862.js",
+    "static/js/488.9c92ff38.chunk.js": "/Sherry-s-Website/static/js/488.9c92ff38.chunk.js",
+    "index.html": "/Sherry-s-Website/index.html",
+    "main.13d1daf8.css.map": "/Sherry-s-Website/static/css/main.13d1daf8.css.map",
+    "main.e0db0862.js.map": "/Sherry-s-Website/static/js/main.e0db0862.js.map",
+    "488.9c92ff38.chunk.js.map": "/Sherry-s-Website/static/js/488.9c92ff38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13d1daf8.css",
+    "static/js/main.e0db0862.js"
+  ]
+}
